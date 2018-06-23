@@ -18,4 +18,6 @@ end
 def now_serving(line_array)
   if line_array.length == 0
     puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{line_array.first}."
 end
