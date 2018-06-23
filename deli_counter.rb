@@ -11,4 +11,5 @@ def line(line_array)
 end
 
 def take_a_number(line_array, patron)
+  index = line_array.index(patron)
 end
