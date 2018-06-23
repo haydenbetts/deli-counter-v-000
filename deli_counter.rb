@@ -15,7 +15,7 @@ def take_a_number(line_array, patron)
   puts "Welcome, #{patron}. You are number #{line_array.length} in line."
 end
 
-def now_serving
-  if line.length == 0
-    
+def now_serving(line_array)
+  if line_array.length == 0
+
 end
