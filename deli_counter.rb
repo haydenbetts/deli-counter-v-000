@@ -8,5 +8,5 @@ def line(line)
       " #{index}. #{patron}"
     end
 
-
+    return "The line is current:#{concat}"
 end
