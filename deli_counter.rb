@@ -6,6 +6,6 @@ def line(line_array)
     concat = line_array.collect.with_index do |patron, index|
       " #{index + 1}. #{patron}"
     end
-    puts "The line is current:#{concat.join}"
+    puts "The line is currently:#{concat.join}"
   end
 end
