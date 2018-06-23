@@ -4,7 +4,7 @@ def line(line)
     return "The line is currently empty."
   else
 
-    line.collect.with_index do |patron, index|
+    concat = line.collect.with_index do |patron, index|
       " #{index}. #{patron}"
     end
 
