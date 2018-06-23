@@ -4,7 +4,7 @@ def line(line_array)
     puts "The line is currently empty."
   else
     concat = line_array.collect.with_index do |patron, index|
-      " #{index}. #{patron}"
+      " #{index + 1}. #{patron}"
     end
     puts "The line is current:#{concat.join}"
   end
