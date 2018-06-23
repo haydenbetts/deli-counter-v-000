@@ -16,5 +16,6 @@ def take_a_number(line_array, patron)
 end
 
 def now_serving
-  
+  if line.length == 0
+    
 end
