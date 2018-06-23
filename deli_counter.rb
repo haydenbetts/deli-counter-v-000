@@ -14,3 +14,7 @@ def take_a_number(line_array, patron)
   line_array << patron
   puts "Welcome, #{patron}. You are number #{line_array.length} in line."
 end
+
+def now_serving
+  
+end
