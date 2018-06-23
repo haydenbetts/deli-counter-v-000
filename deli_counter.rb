@@ -12,4 +12,6 @@ end
 
 def take_a_number(line_array, patron)
   index = line_array.index(patron)
+
+  puts "Welcome, #{patron}. You are number #{index} in line."
 end
