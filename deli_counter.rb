@@ -9,3 +9,6 @@ def line(line_array)
     puts "The line is currently:#{concat.join}"
   end
 end
+
+def take_a_number(line_array, patron)
+end
