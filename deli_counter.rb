@@ -12,7 +12,8 @@ end
 
 def take_a_number(line_array, patron)
 
-  if
+  line_array << patron
+  puts "Welcome, #{patron}. You are number #{line.length} in line."
   index = line_array.index(patron)
 
   puts "Welcome, #{patron}. You are number #{index + 1} in line."
